@@ -159,7 +159,7 @@ Certainly! Here's the revised Step 11 with the content of the PV YAML files incl
 ## Step 14: Bind Port for External Access (Optional)
 - If you want to access MongoDB from outside your Kubernetes cluster, you can bind a port using the following command:
    ```
-kubectl port-forward services/example-mongodb-svc -n mongodb 8000:27017 --address='0.0.0.0'
+   kubectl port-forward services/example-mongodb-svc -n mongodb 8000:27017 --address='0.0.0.0'
    ```
 
 ## Conclusion
